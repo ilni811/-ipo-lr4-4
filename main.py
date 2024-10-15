@@ -1,6 +1,6 @@
 
-spisok = []
-for i in range(1,11):
+spisok = [] #пустой список
+for i in range(1,11): 
     
-    spisok.append(i*3)
+    spisok.append(i*3) #умножаем числа которые получили из списка и каждое умножаем на 3, помещаем в список
 print(spisok)
